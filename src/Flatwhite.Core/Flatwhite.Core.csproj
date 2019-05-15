@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Van Nguyen</Authors>    
+    <Description>Flatwhite is an AOP library for .NET Core. It's ported from old Flatwhite package (.NET 4.5) to support only .NET CORE 2.1+ and doesn't require any extra packages</Description>
+    <PackageReleaseNotes>https://github.com/vanthoainguyen/Flatwhite.Core/blob/master/CHANGES.md</PackageReleaseNotes>
+    <PackageTags>Flatwhite Intercept DynamicProxy ActionFilter MethodFilter AOP</PackageTags>
+    <RepositoryUrl>https://github.com/vanthoainguyen/Flatwhite.Core</RepositoryUrl>    
+    <PackageLicenseUrl>http://sam.zoy.org/wtfpl/COPYING</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/vanthoainguyen/Flatwhite.Core</PackageProjectUrl>
+    <PackageIconUrl>http://oi64.tinypic.com/23w19b4.jpg</PackageIconUrl>
+    <Copyright>http://sam.zoy.org/wtfpl/COPYING</Copyright>
+    <RepositoryType>C#</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\src\others\Flatwhite.Core\src\Flatwhite.Core\bin\Release\netcoreapp2.1\Flatwhite.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
