@@ -1,0 +1,7 @@
+﻿language: csharp
+before_install:
+  - chmod +x build.sh
+mono: none
+dotnet: 2.1
+script:
+  - ./build.sh
